@@ -1,0 +1,627 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		330DE66025854CD800C36B48 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 330DE65F25854CD800C36B48 /* AppDelegate.swift */; };
+		330DE66225854CD800C36B48 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 330DE66125854CD800C36B48 /* SceneDelegate.swift */; };
+		330DE66425854CD800C36B48 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 330DE66325854CD800C36B48 /* ViewController.swift */; };
+		330DE66725854CD800C36B48 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 330DE66525854CD800C36B48 /* Main.storyboard */; };
+		330DE66A25854CD800C36B48 /* Carterinha_Digital_RU.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 330DE66825854CD800C36B48 /* Carterinha_Digital_RU.xcdatamodeld */; };
+		330DE66F25854CDA00C36B48 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 330DE66D25854CDA00C36B48 /* LaunchScreen.storyboard */; };
+		330DE67A25854CDB00C36B48 /* Carterinha_Digital_RUTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 330DE67925854CDB00C36B48 /* Carterinha_Digital_RUTests.swift */; };
+		330DE68525854CDB00C36B48 /* Carterinha_Digital_RUUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 330DE68425854CDB00C36B48 /* Carterinha_Digital_RUUITests.swift */; };
+		330DE6B02585A4CB00C36B48 /* Usuario.swift in Sources */ = {isa = PBXBuildFile; fileRef = 330DE6AF2585A4CB00C36B48 /* Usuario.swift */; };
+		330DE6B82585A6FB00C36B48 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 330DE6B72585A6FB00C36B48 /* LoginViewController.swift */; };
+		330DE6C02585B23800C36B48 /* PerfilViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 330DE6BF2585B23800C36B48 /* PerfilViewController.swift */; };
+		33AD5D6B2587F88A00FA9E9E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33AD5D6A2587F88A00FA9E9E /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		330DE67625854CDB00C36B48 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 330DE65425854CD700C36B48 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 330DE65B25854CD800C36B48;
+			remoteInfo = "Carterinha Digital RU";
+		};
+		330DE68125854CDB00C36B48 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 330DE65425854CD700C36B48 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 330DE65B25854CD800C36B48;
+			remoteInfo = "Carterinha Digital RU";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		330DE65C25854CD800C36B48 /* Carterinha Digital RU.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Carterinha Digital RU.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		330DE65F25854CD800C36B48 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		330DE66125854CD800C36B48 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		330DE66325854CD800C36B48 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		330DE66625854CD800C36B48 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		330DE66925854CD800C36B48 /* Carterinha_Digital_RU.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Carterinha_Digital_RU.xcdatamodel; sourceTree = "<group>"; };
+		330DE66E25854CDA00C36B48 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		330DE67025854CDA00C36B48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		330DE67525854CDB00C36B48 /* Carterinha Digital RUTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Carterinha Digital RUTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		330DE67925854CDB00C36B48 /* Carterinha_Digital_RUTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Carterinha_Digital_RUTests.swift; sourceTree = "<group>"; };
+		330DE67B25854CDB00C36B48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		330DE68025854CDB00C36B48 /* Carterinha Digital RUUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Carterinha Digital RUUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		330DE68425854CDB00C36B48 /* Carterinha_Digital_RUUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Carterinha_Digital_RUUITests.swift; sourceTree = "<group>"; };
+		330DE68625854CDB00C36B48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		330DE6AF2585A4CB00C36B48 /* Usuario.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Usuario.swift; sourceTree = "<group>"; };
+		330DE6B72585A6FB00C36B48 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		330DE6BF2585B23800C36B48 /* PerfilViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerfilViewController.swift; sourceTree = "<group>"; };
+		33AD5D6A2587F88A00FA9E9E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		330DE65925854CD800C36B48 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		330DE67225854CDB00C36B48 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		330DE67D25854CDB00C36B48 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		330DE65325854CD700C36B48 = {
+			isa = PBXGroup;
+			children = (
+				330DE65E25854CD800C36B48 /* Carterinha Digital RU */,
+				330DE67825854CDB00C36B48 /* Carterinha Digital RUTests */,
+				330DE68325854CDB00C36B48 /* Carterinha Digital RUUITests */,
+				330DE65D25854CD800C36B48 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		330DE65D25854CD800C36B48 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				330DE65C25854CD800C36B48 /* Carterinha Digital RU.app */,
+				330DE67525854CDB00C36B48 /* Carterinha Digital RUTests.xctest */,
+				330DE68025854CDB00C36B48 /* Carterinha Digital RUUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		330DE65E25854CD800C36B48 /* Carterinha Digital RU */ = {
+			isa = PBXGroup;
+			children = (
+				330DE65F25854CD800C36B48 /* AppDelegate.swift */,
+				330DE66125854CD800C36B48 /* SceneDelegate.swift */,
+				330DE6AF2585A4CB00C36B48 /* Usuario.swift */,
+				330DE66325854CD800C36B48 /* ViewController.swift */,
+				330DE6BF2585B23800C36B48 /* PerfilViewController.swift */,
+				330DE6B72585A6FB00C36B48 /* LoginViewController.swift */,
+				330DE66525854CD800C36B48 /* Main.storyboard */,
+				330DE66D25854CDA00C36B48 /* LaunchScreen.storyboard */,
+				33AD5D6A2587F88A00FA9E9E /* Assets.xcassets */,
+				330DE67025854CDA00C36B48 /* Info.plist */,
+				330DE66825854CD800C36B48 /* Carterinha_Digital_RU.xcdatamodeld */,
+			);
+			path = "Carterinha Digital RU";
+			sourceTree = "<group>";
+		};
+		330DE67825854CDB00C36B48 /* Carterinha Digital RUTests */ = {
+			isa = PBXGroup;
+			children = (
+				330DE67925854CDB00C36B48 /* Carterinha_Digital_RUTests.swift */,
+				330DE67B25854CDB00C36B48 /* Info.plist */,
+			);
+			path = "Carterinha Digital RUTests";
+			sourceTree = "<group>";
+		};
+		330DE68325854CDB00C36B48 /* Carterinha Digital RUUITests */ = {
+			isa = PBXGroup;
+			children = (
+				330DE68425854CDB00C36B48 /* Carterinha_Digital_RUUITests.swift */,
+				330DE68625854CDB00C36B48 /* Info.plist */,
+			);
+			path = "Carterinha Digital RUUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		330DE65B25854CD800C36B48 /* Carterinha Digital RU */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 330DE68925854CDB00C36B48 /* Build configuration list for PBXNativeTarget "Carterinha Digital RU" */;
+			buildPhases = (
+				330DE65825854CD800C36B48 /* Sources */,
+				330DE65925854CD800C36B48 /* Frameworks */,
+				330DE65A25854CD800C36B48 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Carterinha Digital RU";
+			productName = "Carterinha Digital RU";
+			productReference = 330DE65C25854CD800C36B48 /* Carterinha Digital RU.app */;
+			productType = "com.apple.product-type.application";
+		};
+		330DE67425854CDB00C36B48 /* Carterinha Digital RUTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 330DE68C25854CDB00C36B48 /* Build configuration list for PBXNativeTarget "Carterinha Digital RUTests" */;
+			buildPhases = (
+				330DE67125854CDB00C36B48 /* Sources */,
+				330DE67225854CDB00C36B48 /* Frameworks */,
+				330DE67325854CDB00C36B48 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				330DE67725854CDB00C36B48 /* PBXTargetDependency */,
+			);
+			name = "Carterinha Digital RUTests";
+			productName = "Carterinha Digital RUTests";
+			productReference = 330DE67525854CDB00C36B48 /* Carterinha Digital RUTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		330DE67F25854CDB00C36B48 /* Carterinha Digital RUUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 330DE68F25854CDB00C36B48 /* Build configuration list for PBXNativeTarget "Carterinha Digital RUUITests" */;
+			buildPhases = (
+				330DE67C25854CDB00C36B48 /* Sources */,
+				330DE67D25854CDB00C36B48 /* Frameworks */,
+				330DE67E25854CDB00C36B48 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				330DE68225854CDB00C36B48 /* PBXTargetDependency */,
+			);
+			name = "Carterinha Digital RUUITests";
+			productName = "Carterinha Digital RUUITests";
+			productReference = 330DE68025854CDB00C36B48 /* Carterinha Digital RUUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		330DE65425854CD700C36B48 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					330DE65B25854CD800C36B48 = {
+						CreatedOnToolsVersion = 12.2;
+					};
+					330DE67425854CDB00C36B48 = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = 330DE65B25854CD800C36B48;
+					};
+					330DE67F25854CDB00C36B48 = {
+						CreatedOnToolsVersion = 12.2;
+						TestTargetID = 330DE65B25854CD800C36B48;
+					};
+				};
+			};
+			buildConfigurationList = 330DE65725854CD700C36B48 /* Build configuration list for PBXProject "Carterinha Digital RU" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 330DE65325854CD700C36B48;
+			productRefGroup = 330DE65D25854CD800C36B48 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				330DE65B25854CD800C36B48 /* Carterinha Digital RU */,
+				330DE67425854CDB00C36B48 /* Carterinha Digital RUTests */,
+				330DE67F25854CDB00C36B48 /* Carterinha Digital RUUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		330DE65A25854CD800C36B48 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				330DE66F25854CDA00C36B48 /* LaunchScreen.storyboard in Resources */,
+				33AD5D6B2587F88A00FA9E9E /* Assets.xcassets in Resources */,
+				330DE66725854CD800C36B48 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		330DE67325854CDB00C36B48 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		330DE67E25854CDB00C36B48 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		330DE65825854CD800C36B48 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				330DE6B82585A6FB00C36B48 /* LoginViewController.swift in Sources */,
+				330DE66425854CD800C36B48 /* ViewController.swift in Sources */,
+				330DE66025854CD800C36B48 /* AppDelegate.swift in Sources */,
+				330DE66A25854CD800C36B48 /* Carterinha_Digital_RU.xcdatamodeld in Sources */,
+				330DE6B02585A4CB00C36B48 /* Usuario.swift in Sources */,
+				330DE6C02585B23800C36B48 /* PerfilViewController.swift in Sources */,
+				330DE66225854CD800C36B48 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		330DE67125854CDB00C36B48 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				330DE67A25854CDB00C36B48 /* Carterinha_Digital_RUTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		330DE67C25854CDB00C36B48 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				330DE68525854CDB00C36B48 /* Carterinha_Digital_RUUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		330DE67725854CDB00C36B48 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 330DE65B25854CD800C36B48 /* Carterinha Digital RU */;
+			targetProxy = 330DE67625854CDB00C36B48 /* PBXContainerItemProxy */;
+		};
+		330DE68225854CDB00C36B48 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 330DE65B25854CD800C36B48 /* Carterinha Digital RU */;
+			targetProxy = 330DE68125854CDB00C36B48 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		330DE66525854CD800C36B48 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				330DE66625854CD800C36B48 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		330DE66D25854CDA00C36B48 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				330DE66E25854CDA00C36B48 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		330DE68725854CDB00C36B48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		330DE68825854CDB00C36B48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		330DE68A25854CDB00C36B48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VGL9XHM5FM;
+				INFOPLIST_FILE = "Carterinha Digital RU/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "BF-Producoes.Carterinha-Digital-RU";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		330DE68B25854CDB00C36B48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VGL9XHM5FM;
+				INFOPLIST_FILE = "Carterinha Digital RU/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "BF-Producoes.Carterinha-Digital-RU";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		330DE68D25854CDB00C36B48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VGL9XHM5FM;
+				INFOPLIST_FILE = "Carterinha Digital RUTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "BF-Producoes.Carterinha-Digital-RUTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Carterinha Digital RU.app/Carterinha Digital RU";
+			};
+			name = Debug;
+		};
+		330DE68E25854CDB00C36B48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VGL9XHM5FM;
+				INFOPLIST_FILE = "Carterinha Digital RUTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "BF-Producoes.Carterinha-Digital-RUTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Carterinha Digital RU.app/Carterinha Digital RU";
+			};
+			name = Release;
+		};
+		330DE69025854CDB00C36B48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VGL9XHM5FM;
+				INFOPLIST_FILE = "Carterinha Digital RUUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "BF-Producoes.Carterinha-Digital-RUUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Carterinha Digital RU";
+			};
+			name = Debug;
+		};
+		330DE69125854CDB00C36B48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VGL9XHM5FM;
+				INFOPLIST_FILE = "Carterinha Digital RUUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "BF-Producoes.Carterinha-Digital-RUUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Carterinha Digital RU";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		330DE65725854CD700C36B48 /* Build configuration list for PBXProject "Carterinha Digital RU" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				330DE68725854CDB00C36B48 /* Debug */,
+				330DE68825854CDB00C36B48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		330DE68925854CDB00C36B48 /* Build configuration list for PBXNativeTarget "Carterinha Digital RU" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				330DE68A25854CDB00C36B48 /* Debug */,
+				330DE68B25854CDB00C36B48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		330DE68C25854CDB00C36B48 /* Build configuration list for PBXNativeTarget "Carterinha Digital RUTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				330DE68D25854CDB00C36B48 /* Debug */,
+				330DE68E25854CDB00C36B48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		330DE68F25854CDB00C36B48 /* Build configuration list for PBXNativeTarget "Carterinha Digital RUUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				330DE69025854CDB00C36B48 /* Debug */,
+				330DE69125854CDB00C36B48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		330DE66825854CD800C36B48 /* Carterinha_Digital_RU.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				330DE66925854CD800C36B48 /* Carterinha_Digital_RU.xcdatamodel */,
+			);
+			currentVersion = 330DE66925854CD800C36B48 /* Carterinha_Digital_RU.xcdatamodel */;
+			path = Carterinha_Digital_RU.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 330DE65425854CD700C36B48 /* Project object */;
+}
